@@ -2,6 +2,8 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
+**Simple is enough.**
+
 A lightweight notepad for plain text and Markdown. Write a note, paste an AI response, or edit its formatted result directly—without installing an app or creating an account.
 
 **Open `index.html` and start writing.** No build step or server required.

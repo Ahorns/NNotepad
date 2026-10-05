@@ -2,6 +2,8 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
+**Simple is enough.** 简单，就够了。
+
 一个轻量的网页版记事本，支持纯文本和 Markdown。可以写笔记、粘贴 AI 回答，也能直接修改排版后的内容，无需安装或注册账号。
 
 **打开 `index.html` 就能使用。** 不需要构建或服务器。
