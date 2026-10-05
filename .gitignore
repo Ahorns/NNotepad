@@ -1,0 +1,21 @@
+# Local system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
+
+# Dependencies and temporary work (not needed for this static app)
+node_modules/
+work/
+tmp/
+
+# Personal note backups
+backups/
+NNotepad-备份-*.json
+NNotepad-backup-*.json
+
+# Local environment files
+.env
+.env.*
