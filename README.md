@@ -39,6 +39,8 @@ Importing `.md` or `.markdown` selects Markdown mode automatically. Exports use 
 
 ## Organize with folders
 
+Drag a note onto a folder or **Unfiled** to move it. **Ctrl / ⌘ + click** selects multiple notes; **Shift + click** selects a range. Drag a selected note to move the whole selection. Press **Esc** to clear the selection. The right-click menu remains available as an alternative.
+
 Click **+** beside **Folders** to create a folder. Right-click an existing note and choose a destination under **Move to folder**. New and imported notes go into the selected folder; search filters notes in that view.
 
 **All notes** shows everything; **Unfiled** shows notes without a folder. Click **⋯** beside a folder to rename or delete it. Deleting a folder moves its notes to Unfiled—it does not delete the notes. These are browser-local groups, not directories on disk. Backups include folders; older backups can still be restored.
