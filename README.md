@@ -16,6 +16,7 @@ A lightweight notepad for plain text and Markdown. Write a note, paste an AI res
 | Editable preview | Edit the source, use a split view, or type into the formatted Markdown. |
 | Quiet autosave | Save notes in your browser as you type. Only errors show a message. |
 | Multiple notes | Create notes and search their titles and content in the sidebar. |
+| Folders | Group notes, view all or unfiled notes, and move a note using its right-click menu. |
 | Import & export | Open files from the sidebar. Right-click a note to export or delete it. |
 | Backup & restore | Download all notes as JSON and restore them later. |
 | Simple appearance | Light and deep-purple dark themes, text-size controls, and a collapsible sidebar. |
@@ -35,6 +36,12 @@ Markdown supports headings, bold, italic, lists, task lists, quotes, tables, lin
 4. Use **Split** to compare source and formatting, or **Preview** to edit formatted content directly.
 
 Importing `.md` or `.markdown` selects Markdown mode automatically. Exports use `.md` in Markdown mode and `.txt` in plain-text mode.
+
+## Organize with folders
+
+Click **+** beside **Folders** to create a folder. Right-click an existing note and choose a destination under **Move to folder**. New and imported notes go into the selected folder; search filters notes in that view.
+
+**All notes** shows everything; **Unfiled** shows notes without a folder. Click **⋯** beside a folder to rename or delete it. Deleting a folder moves its notes to Unfiled—it does not delete the notes. These are browser-local groups, not directories on disk. Backups include folders; older backups can still be restored.
 
 ## Language
 
@@ -88,3 +95,4 @@ This is a static website: no package installation or compilation step. Edit the 
 - No cross-device or cross-browser sync.
 
 Third-party notices are in [THIRD_PARTY.md](THIRD_PARTY.md); original license files are included in `vendor/`.
+
